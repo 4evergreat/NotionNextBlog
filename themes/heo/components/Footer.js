@@ -30,8 +30,6 @@ const Footer = ({ title }) => {
         <div id='footer-bottom-left'>
           NotionNext {siteConfig('VERSION')} <i className='fas fa-copyright' />{' '}
           {`${copyrightDate}`} <i className='mx-1 animate-pulse fas fa-heart' />{' '}
-          <a>粤ICP备2024279723</a>
-          .
         </div>
 
         <div id='footer-bottom-right'>
