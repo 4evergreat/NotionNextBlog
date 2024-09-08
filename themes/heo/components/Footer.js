@@ -31,8 +31,7 @@ const Footer = ({ title }) => {
         <div id='footer-bottom-left'>
           {/* NotionNext {siteConfig('VERSION')} <i className='fas fa-copyright' />{' '} */}
           {/* {`${copyrightDate}`} <i className='mx-1 animate-pulse fas fa-heart' />{' '} */}
-          {`${copyrightDate}`} <i className='mx-1 animate-pulse fas fa-heart' />{' '}
-          {`${authentica}`} {`${authentica}`}
+          {`${copyrightDate} · ${authentica}`} <i className='mx-1 animate-pulse fas fa-heart' />{' '}
 
           {/* <a
             href={siteConfig('LINK')}
