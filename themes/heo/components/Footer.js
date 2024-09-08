@@ -5,7 +5,8 @@ const Footer = ({ title }) => {
   const d = new Date()
   const currentYear = d.getFullYear()
   const since = siteConfig('SINCE')
-  const copyrightDate = ''
+  const copyrightDate =
+  const authentica = '粤ICP备2024279723'
     parseInt(since) < currentYear ? since + '-' + currentYear : currentYear
 
   return (
@@ -31,12 +32,13 @@ const Footer = ({ title }) => {
           {/* NotionNext {siteConfig('VERSION')} <i className='fas fa-copyright' />{' '} */}
           {/* {`${copyrightDate}`} <i className='mx-1 animate-pulse fas fa-heart' />{' '} */}
           {`${copyrightDate}`} <i className='mx-1 animate-pulse fas fa-heart' />{' '}
-          <a
+          {`${authentica}`} {`${authentica}`}
+
+          {/* <a
             href={siteConfig('LINK')}
             className='underline font-bold dark:text-gray-300 '>
             {siteConfig('AUTHOR')}
-          </a>
-          .
+          </a> */}
         </div>
 
         <div id='footer-bottom-right'>
