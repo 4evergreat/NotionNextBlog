@@ -20,8 +20,8 @@ const CONFIG = {
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '分享编程',
   HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: '点击查看随机壁纸',
-  HEO_HERO_TITLE_LINK: 'https://api.btstu.cn/sjbz/api.php',
+  // HEO_HERO_TITLE_3: '点击查看随机壁纸',
+  // HEO_HERO_TITLE_LINK: 'https://api.btstu.cn/sjbz/api.php',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
@@ -112,9 +112,9 @@ const CONFIG = {
   ],
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  HEO_SOCIAL_CARD_TITLE_1: '交流频道',
-  HEO_SOCIAL_CARD_TITLE_2: '加入我的社群讨论分享',
-  HEO_SOCIAL_CARD_TITLE_3: '点击查看随机壁纸',
+  HEO_SOCIAL_CARD_TITLE_1: '每日一图',
+  HEO_SOCIAL_CARD_TITLE_2: '点击查看随机壁纸',
+  HEO_SOCIAL_CARD_TITLE_3: 'open here!',
   HEO_SOCIAL_CARD_URL: 'https://api.btstu.cn/sjbz/api.php',
 
   // *****  以下配置无效，只是预留开发 ****
